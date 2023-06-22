@@ -1,0 +1,122 @@
+.section {
+    padding: 0.5rem 2rem 1rem 2rem;
+}
+.section:hover {
+    background-color: #fff;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*title*/
+.header {
+    background-color: #0ff;
+    color: #f0f;
+    margin-bottom: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+body {
+    background-color: #f0f;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+/*title*/
+h1 {
+    font-family: 'Impact', sans-serif;
+    font-size: 30px;
+}
+/*cool stuff for webpage*/
+hr.dashed {
+    border: 1px dashed #ffffff;
+}
+
+h2 {
+    font-family: 'Times New Roman', sans-serif;
+    font-size 16px;
+    color: #000000;
+}
+
+a {
+    text-decoration: underline;
+}
+/*responsive for mobile*/
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    }
+/*\n*/
+#newline {
+    white-space: pre-line;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+*, {
+    box-sizing: border-box;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list style type: disc;
+}
+
+hr.a {
+    border-style: inset;
+    height: 0px;
+    border-width: 10px;
+    color: #0ff;
+    background-color: #f0f;
+}
+
+hr.b {
+    border-style: solid;
+    height: 3px;
+    border-width: 5px;
+    color: #000;
+    background-color: #000;
+}
+
+button, input[type="submit"] {
+    background-color: #d9edff;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    font-size: 0.95rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0.375rem 0.75rem;
+    text-align: center;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    vertical-align: middle;
+}
+
+
+button[type="text"] {
+    line-height: 1.8;
+    width: 25%;
+}
+
+button[type="text"]:hover {
+    background-color: #f5f5f5;
+    transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
+}
